@@ -29,6 +29,7 @@ export const SearchCountry = () => {
 
   const handleChangeRegion = region => {
     setRegion(region);
+    setError(null);
   };
   return (
     <Section>
